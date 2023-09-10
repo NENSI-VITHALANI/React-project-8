@@ -32,7 +32,46 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.btn {
+  font-size: 20px !important;
+  font-weight: 500 !important;
+}
+
+body {
+  background-color: rgb(3, 12, 27) !important;
+}
+
+h1 {
+  font-size: 44px !important;
+}
+
+.book-card {
+  border-radius: 20px;
+  height: 580px;
+  color: rgb(3, 12, 27);
+  background-color: #6c757d;
+}
+
+.book-card img {
+  width: 100%;
+  border-radius: 20px;
+  height: 400px;
+}
+
+.book-card h5 {
+  border-color: rgb(3, 12, 27) !important;
+  border-style: solid !important;
+  border-width: 2px !important;
+  border-left: 0 !important;
+  border-right: 0 !important;
+}
+
+input:focus {
+  border: none !important;
 }
